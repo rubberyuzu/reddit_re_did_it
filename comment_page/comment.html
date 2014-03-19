@@ -2,46 +2,171 @@
 <head>
 	<title>comment</title>
 	<!-- below is my css code. -->
+	<!-- also, make sure you have all the images in "img" folder.-->
 	<style>
 	 
 	 body{
-	 	background-color: black;
+	 	font-family: "Times";
+	 	background-color: #6183A6;
 	 }
 
-	 .comment_box{
+
+	 
+	 
+	 .box_container {
 	 	background-color: white;
 	 	width: 70%;
 	 	margin-right: auto;
 	 	margin-left: auto;
+	 	height:100%;
+
 
 	 }
-	 .heart{
-	 	width: 3%;
-	 	height: 4%;
-	 	position: relative;
-	 	padding:5px;
-	 	background-color: red;
-	 }
-	 .profpic{
-	 	width: 5%;
-	 	height: 6%;
-	 	margin-top: 0;
-	 	background-color: blue;
+	 .box{
 	 	padding: 5px;
+	 	background-color: white;
+	 	float: left;
+	 	font-size: 20px;
 	 }
+	 #com_wrapper{
+	 	float: right;
+	 	width: 95%;
+	 	
+	 }
+	 .loadmore{
+	 	height: 5%;
+	 	width: 90.5%;
+	 	text-align: center;
+	 	color: white;
+	 	background-color:#B8B8B8 ;
+
+	 }
+	 .loadmore:hover{
+	 	background-color: #838B8B;
+	 	cursor: pointer;
+	 }
+	 .lm_phrase{
+	 	font-size: 0.8em;
+	 	font-family: sans-serif;
+	 	padding-top:0.75%; 
+	 }
+
+
+
+	 .each_comment{
+	 	background-color: white;
+	 	width: 90%;
+	 	height:11%;
+	 	border-top:  2px solid #838B8B;
+	 	border-right:  2px solid #838B8B;
+	 	border-left:  2px solid #838B8B;
+	 }
+
+	 .box2{
+	 	/*position: relative;*/
+	 	/*left:30px;*/
+	 	background-color: white;
+	 	float: left;
+	
+	 	overflow: hidden;
+	 	font-size: 16px;
+	 }
+	 .user{
+	 	background-color: #C6E2FF;
+	 }
+	 .user:hover{
+	 	background-color: #6183A6;
+	 	cursor: pointer;
+	 }
+	 .new_comment{
+	 	width: 90.5%;
+	 	border-top:  2px solid #838B8B;
+	 }
+	 
+	 .me{
+	 	background-color: blue;
+	 }
+	 .scripting{
+	 
+	 	width: 100%;
+	 	height:20%;
+	 	border: 2px solid #838B8B;
+	 	position: relative;
+	 	margin-top: 0;
+
+	 }
+	 .scripting:hover{
+	 	border: 2.5px solid #6183A6;
+	 	cursor: text;
+	 	
+	 }
+
+
+	
 
 	</style>
 </head>
 <body>
-	<div class="comment_box">
-		<p class="heart"><img src="img/heart_icon.png"></p>
-		 <p class="profpic"><img src="img/human_icon.png"/></p>
-		 
+	<div class="box_container">
+		
+		<div class="box"><img src="img/human_icon.png"/ class="user"></div>
+		<div class="box"><p>wow this is the best gif ever.</p></div>
+		<br/><br/>
+	  <div id="com_wrapper">
+	  	
+		<div class="loadmore"><p class="lm_phrase">LOAD MORE</p></div>
+	    
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+	    </div>
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+		</div>
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+		</div>
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+	    </div>
+		<div class="new_comment">
+		<div class="box3"><img src="img/human_icon.png"/ class="me"></div>
+		<div class="box3"><p class="scripting"></p></div>
+	    </div>
 
-
-
+	  </div>
 	</div>
-	<div class="comment_box">
+	<div class="box_container">
+				<div class="box"><img src="img/human_icon.png"/ class="user"></div>
+		<div class="box"><p>wow this is the best gif ever.</p></div>
+		<br/><br/>
+	  <div id="com_wrapper">
+	  	
+		<div class="loadmore"><p class="lm_phrase">LOAD MORE</p></div>
+	    
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+	    </div>
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+		</div>
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+		</div>
+		<div class="each_comment">
+		<div class="box2"><img src="img/human_icon2.png"/ class="user"></div>
+		<div class="box2"><p>HAHAHAHAHHA.</p></div>
+	    </div>
+		<div class="new_comment">
+		<div class="box3"><img src="img/human_icon.png"/ class="me"></div>
+		<div class="box3"><p class="scripting"></p></div>
+	    </div>
 	</div>
 
 </body>
